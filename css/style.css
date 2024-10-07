@@ -1,0 +1,123 @@
+/* 整体样式 */
+html,
+body {
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 顶部标题栏 */
+.head-box{
+    width:100%;
+    height:60px;
+    background-color: rgb(13, 80, 147);
+    /* background-color: #1E488F;
+    background-color: #4F86C6; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100; /* 确保元素在其他内容之上 */
+}
+.head-title{
+    float: left;
+    margin-left: 5%;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+/* 主要内容 */
+.main{
+    display:flex;
+    text-align: center;
+    justify-items: center;
+}
+
+/* 侧边栏 */
+.side{
+    margin-left:2%;
+    margin-top:7%;
+    width:10%;
+    height:500px;
+    position:fixed;
+}
+.class-list{
+    margin:0;
+    padding:0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+/* 鼠标悬停时的链接颜色 */
+a:hover {
+    color: #4F86C6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 基本信息 */
+.card-text{
+    font-size: 15px;
+    height:18px;
+}
+.course{
+    width:100%;
+    margin-bottom: 2%;
+}
+
+/* 儿童头像 */
+.children-list{
+    width:98%;
+    display:flex;
+}
+.child{
+    margin-right:10px;
+}
+.children-image{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    margin-bottom: 1%;
+}
+.chilren-text{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* 图表区 */
+.figure-list{
+    width:98%;
+    display:flex;
+    margin-top:3%;
+    margin-left:3%;
+}
+.gender-compare{
+    width:200px;
+    height:150px;
+}
+.all-children{
+    width:420px;
+    height:305px;
+}
+.single-child{
+    width:96%;
+    margin-top:3%;
+    margin-left:3%;
+}
+.single-child-img{
+    width:800px;
+    height:160px;
+}
+
+/* 底部 */
+.bottom-box{
+    margin-top: 5%;
+    width:100%;
+    height:30px;
+    background-color: rgb(13, 80, 147);
+}
